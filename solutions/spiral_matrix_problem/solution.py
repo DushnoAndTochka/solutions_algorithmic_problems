@@ -87,3 +87,5 @@ class Solution(object):
                 filling_layer(lvl + 1)
 
         filling_layer()
+        
+        return res
