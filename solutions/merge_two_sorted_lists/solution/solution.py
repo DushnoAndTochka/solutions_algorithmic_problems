@@ -34,17 +34,10 @@ class Solution(object):
             # Так как мы отсортировали уже следующую ноду, мы переходим к ней.
             current_node = current_node.next
 
-        # цикл досортировки первого списка
-        while list1 is not None:
+        if list1 is not None:
             current_node.next = list1
-            list1 = list1.next
-            current_node = current_node.next
-
-        # цикл досортировки второго списка
-        while list2 is not None:
+        else:
             current_node.next = list2
-            list2 = list2.next
-            current_node = current_node.next
 
         # не забываем, что HEAD указывает на пустышку. 
         # нас интересует следующая за ним нода.
