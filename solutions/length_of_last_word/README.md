@@ -1,4 +1,4 @@
-# MergeTwoLinkedSortedLists Problem
+# LengthOfLastWord Problem
 
 ## Описание:
 на вход подаются строка, необходимо найти длину последнего слова в этой строке.
@@ -16,3 +16,6 @@ answer = 4 # len(moon) == 4
 ### *Важно*:
 - Пробелов может быть больше одного
 - Пробелы могут быть вначале и в конце.
+
+---
+<a href="https://leetcode.com/problems/length-of-last-word/">Задача на LeetCode</a>
