@@ -42,10 +42,9 @@ class Solution:
             else:
                 member_num = 0
             
-            # складываем то что насчитали и создаем следующую 
+            # складываем то что насчитали в следующую 
             # ноду в результирующем линкед листе
-            result.val = next_val
-            result.next = ListNode()
+            result.next = ListNode(val=next_val)
             result = result.next
 
         if member_num:
@@ -54,4 +53,4 @@ class Solution:
             # Пример: 9 + 1 = 10
             result.next = ListNode(val=1)
 
-        return result_head
+        return result_head.next
