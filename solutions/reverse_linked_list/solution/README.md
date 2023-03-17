@@ -60,7 +60,7 @@ LinkedList:                                      n     None
                                                  V
 
 Answer:  None  <-  1  <-  2  <-  3  <-  ...  <-  n-1
-                                          prev
+                                                prev
 ```
 
 
