@@ -13,42 +13,5 @@ ReqL: 1  ->  2  ->  3  ->  4  ->  5
 ResL: 5  ->  4  ->  3  ->  2  ->  1
 ```
 
-### Решение
-
-Мы просто перебрасываем указатели на каждом элементе (был указатель на следующий элемент, делаем эго на предыдущий)
-
-
-```
-ReqL: 1  ->  2  ->  3  ->  4  ->  5
-
-                    |
-                    v
-
-ReqL: 1  <-  2  <-  3  <-  4  <-  5
-```
-
-Решение на python
-
-```python
-from typing import Optional
-
-def reverseList(head: Optional['ListNode']) -> Optional['ListNode']:
-    prev = None # Первый элемент должен ссылаться на None
-    curr = head
-    
-    # Будем двигаться по всем элементам и менять им next 
-    while curr is not None:
-        # Запоминаем следующий элемент, позже он будет curr    
-        next_ = curr.next 
-        # Ставим текущему элементу ссылку на предыдущее
-        curr.next = prev 
-        # Ставим текущий элемент, как предыдущий
-        prev = curr
-        # А следующий как текущий
-        curr = next_
-        
-    # Возвращаем имеено prev так как curr это None
-    # Если head==None, то prev тоже None, 
-    # то есть обрабатывать специально None не нужно 
-    return prev
-```
+---
+<a href="https://leetcode.com/problems/reverse-linked-list/">Задача на LeetCode</a>
