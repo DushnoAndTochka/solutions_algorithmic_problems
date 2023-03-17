@@ -1,18 +1,70 @@
 # ReverseLinkedList Solution
 
-Мы просто перебрасываем указатели на каждом элементе (был указатель на следующий элемент, делаем эго на предыдущий)
+## Описание идеи
+Мы просто перебрасываем указатели на каждом элементе. Для этого нам необходимо помнить текущий, предыдущий и следующий. Текущий мы отправляем на предыдущий и запоминаем его как предыдущий. 
 
+## Как это выглдит ?
 
 ```
-ReqL: 1  ->  2  ->  3  ->  4  ->  5
+          curr   next
+LinkedList: 1  ->  2  ->  3  ->  4  ->  ...  ->  n  ->  None
 
-                    |
-                    v
+Answer: None
+        prev
+```
+### Шаг 1
 
-ReqL: 1  <-  2  <-  3  <-  4  <-  5
+```
+          curr   next
+LinkedList: 1      2  ->  3  ->  4  ->  ...  ->  n  ->  None
+            
+            |
+            V
+
+Answer:   None
+          prev
+```
+### Шаг 2
+
+```
+                  curr   next
+LinkedList:        2      3  ->  4  ->  ...  ->  n  ->  None
+            
+                   |
+                   V
+
+Answer:  None  <-  1
+                 prev
 ```
 
-Решение на python
+### Шаг 3
+
+```
+                        curr   next
+LinkedList:               3     4  ->  ...  ->  n  ->  None
+            
+                          |
+                          V
+
+Answer:  None  <-  1  <-  2
+                        prev
+```
+
+### Шаг n
+
+```
+                                               curr    next
+LinkedList:                                      n     None
+            
+                                                 |
+                                                 V
+
+Answer:  None  <-  1  <-  2  <-  3  <-  ...  <-  n-1
+                                          prev
+```
+
+
+## Решение на python
 
 ```python
 from typing import Optional
