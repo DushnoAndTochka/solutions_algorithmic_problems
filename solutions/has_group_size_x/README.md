@@ -7,6 +7,7 @@
 
 - Каждая группа имеет одинаковое количество элементов
 - Все элементы в группе одинаковые
+- Размер группы должен быть > 1
 
 Нужно вернуть можно ли сгруппировать числа данным образом?
 
@@ -27,7 +28,7 @@ answer = True
 deck = [1]
 
 groups = ([1])
-answer = True
+answer = False
 ```
 
 ### Пример 3:
@@ -39,4 +40,5 @@ groups = None
 answer = False # Сгруппировать нельзя
 ```
 
+---
 <a href="https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/">Задача на LeetCode</a>
