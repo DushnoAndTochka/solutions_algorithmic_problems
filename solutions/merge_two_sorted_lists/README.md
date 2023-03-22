@@ -17,3 +17,5 @@ Answer:  1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9
 ```
 ### *Важно*:
 Узлы надо использовать из исходных листов, а не создавать новые.
+
+<a href="https://leetcode.com/problems/merge-two-sorted-lists/">Задача на LeetCode</a>

@@ -17,4 +17,4 @@ Output: 6
 ```
 
 ---
-<a href="https://leetcode.com/problems/guess-number-higher-or-lower">Задача на LeetCode</a>
+<a href="https://leetcode.com/problems/guess-number-higher-or-lower/">Задача на LeetCode</a>
