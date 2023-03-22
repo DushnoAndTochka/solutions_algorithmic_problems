@@ -11,7 +11,7 @@ def guess(num: int) -> int:
 
 
 class Solution:
-    def guessNumber(self, n:int) -> int:
+    def guessNumber(self, n: int) -> int:
         # Как и в классическое задаче по бинпоиску,
         # выставляем границы
         left, rigth = 0, n
