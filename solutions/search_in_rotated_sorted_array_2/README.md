@@ -32,4 +32,4 @@ Output: false
 ```
 
 ---
-<a href="https://leetcode.com/problems/search-in-rotated-sorted-array/">Задача на LeetCode</a>
+<a href="https://leetcode.com/problems/search-in-rotated-sorted-array-ii/">Задача на LeetCode</a>
