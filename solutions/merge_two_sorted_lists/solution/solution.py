@@ -10,8 +10,8 @@ class ListNode(object):
 
 
 class Solution(object):
-    
-    def merge_two_sorted_lists(self, list1: ListNode, list2: ListNode) -> ListNode:
+    def merge_two_sorted_lists(
+            self, list1: ListNode, list2: ListNode) -> ListNode:
         # создаем рузельтирующую голову
         head = ListNode()
         # Переменная указывающая на последнбб отсортированнуб ноду.
@@ -19,7 +19,6 @@ class Solution(object):
 
         # цикл, который работает сразу с двумя списками
         while list1 is not None and list2 is not None:
-            
             if list2.val > list1.val:
                 # Если значение в первом меньше чем в втором,
                 # значит мы к результату прилинковываем эту нод
@@ -39,6 +38,6 @@ class Solution(object):
         else:
             current_node.next = list2
 
-        # не забываем, что HEAD указывает на пустышку. 
+        # не забываем, что HEAD указывает на пустышку.
         # нас интересует следующая за ним нода.
         return head.next

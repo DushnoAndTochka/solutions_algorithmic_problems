@@ -17,6 +17,5 @@
 
 Необходимо найти `target`.
 
-
 ---
 <a href="https://leetcode.com/problems/search-a-2d-matrix/">Задача на LeetCode</a>

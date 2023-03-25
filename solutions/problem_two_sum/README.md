@@ -17,3 +17,6 @@ target = 63
 
 answer = [1, 4]
 ```
+
+---
+<a href="https://leetcode.com/problems/two-sum/">Задача на LeetCode</a>

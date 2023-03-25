@@ -1,6 +1,5 @@
-
 class Solution:
-    def largestAltitude(self, gain: list[int]) -> int:
+    def largest_altitude(self, gain: list[int]) -> int:
         # Начальная высота 0
         c = m = 0
 

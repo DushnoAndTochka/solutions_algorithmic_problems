@@ -1,4 +1,5 @@
 from __future__ import annotations
+
 from typing import Optional
 
 
@@ -9,14 +10,14 @@ class ListNode:
 
 
 class Solution:
-    def hasCycle(self, head: Optional[ListNode]) -> bool:
+    def has_cycle(self, head: Optional[ListNode]) -> bool:
         bread_crumbs = 10 ** 5 + 1
 
         while head is not None:
             if head.val == bread_crumbs:
                 return True
-            
+
             head.val = bread_crumbs
             head = head.next
-        
+
         return False
