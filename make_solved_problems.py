@@ -1,4 +1,5 @@
 import pathlib
+
 import re
 REGEX = re.compile('^<a href="(https://leetcode.com/problems/.+/)">.+')
 
@@ -7,7 +8,11 @@ def get_solved_tasks(parent: pathlib.Path):
     solutions = parent / 'solutions'
     solved = set()
     for solution in solutions.iterdir():
-        if solution.name in ['spiral_matrix_problem', 'problem_two_sum', 'roman_to_integer']:
+        if solution.name in [
+            'spiral_matrix_problem',
+            'problem_two_sum',
+            'roman_to_integer'
+        ]:
             continue
 
         readme = solution / 'README.md'

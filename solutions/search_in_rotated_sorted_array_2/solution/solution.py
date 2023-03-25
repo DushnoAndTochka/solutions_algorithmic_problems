@@ -9,21 +9,22 @@ class Solution:
         while left <= right:
             # ищем середину
             mid = (left + right) // 2
-            
+
             if nums[mid] == target:
                 # равны, значит нашли
                 return True
-            
+
             if nums[mid] == nums[left]:
                 # Если середина равна левому,
                 # то стоит понять есть ли там еще уникальные числа.
                 # В худшем случае это приведет к линейному поиску.
                 left += 1
                 continue
-            elif nums[mid] == nums[right]:
+
+            if nums[mid] == nums[right]:
                 right -= 1
                 continue
-                
+
             if nums[mid] > nums[right]:
                 # Значит справа от середины есть разрыв
                 if nums[left] <= target < nums[mid]:
@@ -46,6 +47,5 @@ class Solution:
                 # то стоит понять есть ли там еще уникальные числа.
                 # В худшем случае это приведет к линейному поиску.
                 right -= 1
-                
 
         return False
