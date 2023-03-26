@@ -20,14 +20,13 @@ jobs:
     - name: Test with flake8
       run: |
         python -m flake8
-  # Подумать о рассылке!!!
-  # send_message:
-  #   runs-on: ubuntu-latest
-  #   needs: deploy
-  #   steps:
-  #   - name: send message
-  #     uses: appleboy/telegram-action@master
-  #     with:
-  #       to: ${{ secrets.TELEGRAM_TO }}
-  #       token: ${{ secrets.TELEGRAM_TOKEN }}
-  #       message: ${{ github.workflow }} успешно выполнен! 
+  send_message:
+    runs-on: ubuntu-latest
+    needs: tests
+    steps:
+    - name: send message
+      uses: appleboy/telegram-action@master
+      with:
+        to: ${{ secrets.TELEGRAM_TO }}
+        token: ${{ secrets.TELEGRAM_TOKEN }}
+        message: ПР прошел проверки и готов к review ${{ github.server_url }}/${{ github.repository }}/pull/${{ github.event.number }}.
