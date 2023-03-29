@@ -10,8 +10,12 @@ https://leetcode.com/problems/merge-k-sorted-lists/
 https://leetcode.com/problems/merge-two-sorted-lists/
 https://leetcode.com/problems/power-of-two/
 https://leetcode.com/problems/reverse-linked-list/
+https://leetcode.com/problems/roman-to-integer/
 https://leetcode.com/problems/search-a-2d-matrix/
 https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 https://leetcode.com/problems/search-in-rotated-sorted-array/
 https://leetcode.com/problems/single-number/
+https://leetcode.com/problems/spiral-matrix/
+https://leetcode.com/problems/two-sum/
+https://leetcode.com/problems/valid-anagram/
 https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/
