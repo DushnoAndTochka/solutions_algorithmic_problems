@@ -1,18 +1,15 @@
 class Solution:
     def majority_element(self, nums: list[int]) -> int:
-        first = second = 0
-        first_counter = second_counter = 0
+        it = iter(nums)
+        count = 1
+        item = next(it)
+        for num in it:
+            if count == 0:
+                item = num
 
-        for num in nums:
-            if first == num:
-                first_counter += 1
-            elif second == num:
-                second_counter += 1
-            elif second_counter > first_counter:
-                first_counter = 1
-                first = num
+            if item == num:
+                count += 1
             else:
-                second_counter = 1
-                second = num
+                count -= 1
 
-        return first if first_counter > second_counter else second
+        return item
