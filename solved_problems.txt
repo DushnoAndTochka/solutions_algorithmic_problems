@@ -7,8 +7,10 @@ https://leetcode.com/problems/left-and-right-sum-differences/
 https://leetcode.com/problems/length-of-last-word/
 https://leetcode.com/problems/linked-list-cycle/
 https://leetcode.com/problems/majority-element/description/
+https://leetcode.com/problems/median-of-two-sorted-arrays/
 https://leetcode.com/problems/merge-k-sorted-lists/
 https://leetcode.com/problems/merge-two-sorted-lists/
+https://leetcode.com/problems/number-of-provinces/description/
 https://leetcode.com/problems/power-of-two/
 https://leetcode.com/problems/reverse-linked-list/
 https://leetcode.com/problems/roman-to-integer/
