@@ -26,10 +26,10 @@ class Solution:
             if parenthesis in self.PARENTHESIS:
                 stack.push(parenthesis)
             else:
-                if len(stack):
+                if not stack:
                     return False
                 last_open_parenthesis = stack.pop()
                 if self.PARENTHESIS[last_open_parenthesis] != parenthesis:
                     return False
 
-        return not len(stack)
+        return not stack
