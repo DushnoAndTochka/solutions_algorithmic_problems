@@ -8,7 +8,7 @@ class Stack():
     def pop(self):
         return self._stack.pop()
 
-    def len(self):
+    def __len__(self):
         return len(self._stack)
 
 
@@ -26,10 +26,10 @@ class Solution:
             if parenthesis in self.PARENTHESIS:
                 stack.push(parenthesis)
             else:
-                if stack.len() == 0:
+                if len(stack) == 0:
                     return False
                 last_open_parenthesis = stack.pop()
                 if self.PARENTHESIS[last_open_parenthesis] != parenthesis:
                     return False
 
-        return stack.len() == 0
+        return len(stack) == 0
