@@ -32,4 +32,4 @@ class Solution:
                 if self.PARENTHESIS[last_open_parenthesis] != parenthesis:
                     return False
 
-        return len(stack)
+        return not len(stack)
