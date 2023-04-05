@@ -19,6 +19,8 @@ https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 https://leetcode.com/problems/search-in-rotated-sorted-array/
 https://leetcode.com/problems/single-number/
 https://leetcode.com/problems/spiral-matrix/
+https://leetcode.com/problems/two-furthest-houses-with-different-colors/
 https://leetcode.com/problems/two-sum/
 https://leetcode.com/problems/valid-anagram/
+https://leetcode.com/problems/valid-parentheses/
 https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/
