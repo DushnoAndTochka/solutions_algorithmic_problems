@@ -1,0 +1,39 @@
+name: "Sync Solved Problems"
+
+on: 
+    push:
+      branches:
+        - 'main'
+
+jobs:
+  update_solved_problems:
+    name: Update Solved Problems CSV File.
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        ssh-key: ${{ secrets.SSH_KEY }}
+        persist-credentials: true
+    - name: Set up Python 
+      uses: actions/setup-python@v3
+      with:
+          python-version: 3.11
+    - name: Sync Solved Problems
+      run: |
+        python3 make_solved_problems.py
+    - name: Commit files
+      id: commit
+      run: |
+        git config --local user.email "telnowtem@gmail.com"
+        git config --local user.name "github-actions[bot]"
+        git add .
+        if [[ `git status --porcelain` ]]; then
+            git commit -a -m "Update solved problems csv file"
+        fi
+        
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        ssh: true
+        force: true
+        branch: ${{ github.ref }}
