@@ -20,4 +20,4 @@ gain = [-4,-3,-2,-1,4,3,2]
 answer = 0 # Высоты в каждой точке [0,-4,-7,-9,-10,-6,-3,-1] и максимальная 1
 ```
 
-<a href="https://leetcode.com/problems/find-the-highest-altitude/description/">Задача на LeetCode</a>
+<a href="https://leetcode.com/problems/find-the-highest-altitude/">Задача на LeetCode</a>

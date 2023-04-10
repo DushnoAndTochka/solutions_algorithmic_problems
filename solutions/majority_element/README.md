@@ -25,4 +25,4 @@ result = 3
 #### А можно ли решить эту задачу за линейное время с использованием только O(1) по памяти?
 
 ---
-<a href="https://leetcode.com/problems/majority-element/description/">Задача на LeetCode</a>
+<a href="https://leetcode.com/problems/majority-element/">Задача на LeetCode</a>

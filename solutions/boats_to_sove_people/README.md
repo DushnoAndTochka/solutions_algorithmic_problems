@@ -35,4 +35,4 @@ result = 4 # 4 лодки (3), (3), (4), (5)
 ```
 
 ---
-<a href="https://leetcode.com/problems/boats-to-save-people/description/">Задача на LeetCode</a>
+<a href="https://leetcode.com/problems/boats-to-save-people/">Задача на LeetCode</a>

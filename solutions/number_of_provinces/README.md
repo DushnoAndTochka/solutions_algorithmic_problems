@@ -38,4 +38,4 @@ answer = 3
 
 ---
 
-<a href="https://leetcode.com/problems/number-of-provinces/description/">Задача на LeetCode</a>
+<a href="https://leetcode.com/problems/number-of-provinces/">Задача на LeetCode</a>
