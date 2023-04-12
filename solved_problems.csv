@@ -24,6 +24,7 @@ search_in_rotated_sorted_array,https://leetcode.com/problems/search-in-rotated-s
 search_in_rotated_sorted_array_2,https://leetcode.com/problems/search-in-rotated-sorted-array-ii/,True
 single_number,https://leetcode.com/problems/single-number/,True
 spiral_matrix_problem,https://leetcode.com/problems/spiral-matrix/,True
+symmetric_tree,https://leetcode.com/problems/symmetric-tree/,False
 top_k_frequent_words,https://leetcode.com/problems/top-k-frequent-words/,True
 two_furthest_houses_with_different_colors,https://leetcode.com/problems/two-furthest-houses-with-different-colors/,True
 valid-parentheses,https://leetcode.com/problems/valid-parentheses/,True
