@@ -10,7 +10,7 @@ has_group_size_x,https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/,T
 left_and_right_sum_difference,https://leetcode.com/problems/left-and-right-sum-differences/,True
 length_of_last_word,https://leetcode.com/problems/length-of-last-word/,True
 linked_list_cycle,https://leetcode.com/problems/linked-list-cycle/,True
-longest_substring_without_repeating_characters,https://leetcode.com/problems/longest-substring-without-repeating-characters/,False
+longest_substring_without_repeating_characters,https://leetcode.com/problems/longest-substring-without-repeating-characters/,True
 majority_element,https://leetcode.com/problems/majority-element/,True
 median_of_two_sorted_arrays,https://leetcode.com/problems/median-of-two-sorted-arrays/,True
 merge_k_sorted_lists,https://leetcode.com/problems/merge-k-sorted-lists/,True
