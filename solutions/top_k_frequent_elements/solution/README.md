@@ -44,6 +44,10 @@ def solution(nums: list(int), k: int) -> list(int):
 
 > Про ф-цию `nlargest` можно почитать [тут](https://docs-python.ru/standart-library/modul-heapq-python/funktsija-nlargest-modulja-heapq/).
 ```python
+import heapq
+from collections import Counter
+
+
 def solution(nums: list[int], k: int) -> list[int]: 
     count = Counter(nums)
     return heapq.nlargest(k, count.keys(), key=count.get) 
