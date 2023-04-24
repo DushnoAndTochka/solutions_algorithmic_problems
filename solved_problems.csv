@@ -31,5 +31,6 @@ symmetric_tree,https://leetcode.com/problems/symmetric-tree/,True
 top_k_frequent_elements,https://leetcode.com/problems/top-k-frequent-elements/,True
 top_k_frequent_words,https://leetcode.com/problems/top-k-frequent-words/,True
 two_furthest_houses_with_different_colors,https://leetcode.com/problems/two-furthest-houses-with-different-colors/,True
+uncommon_from_sentences,https://leetcode.com/problems/uncommon-words-from-two-sentences/,False
 valid-parentheses,https://leetcode.com/problems/valid-parentheses/,True
 valid_anagram,https://leetcode.com/problems/valid-anagram/,True
