@@ -21,7 +21,7 @@ class Solution:
             words[word] += 1
         
         # Проделываем тоже самое, но для второй строки
-        for word in s1.split():
+        for word in s2.split():
             words.setdefault(word, 0)
             words[word] += 1
         # Возвращаем те слова, которые встречаются только один раз
