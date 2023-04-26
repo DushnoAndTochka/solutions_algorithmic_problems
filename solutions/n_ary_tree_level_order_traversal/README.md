@@ -21,4 +21,3 @@ result = [[1],[3,2,4],[5,6]]
 
 ---
 <a href="https://leetcode.com/problems/n-ary-tree-level-order-traversal/">Задача на LeetCode</a>
-
