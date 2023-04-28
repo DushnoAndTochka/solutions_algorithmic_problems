@@ -22,6 +22,7 @@ n_ary_tree_level_order_traversal,https://leetcode.com/problems/n-ary-tree-level-
 number_of_provinces,https://leetcode.com/problems/number-of-provinces/,True
 power_of_two,https://leetcode.com/problems/power-of-two/,True
 problem_two_sum,https://leetcode.com/problems/two-sum/,True
+reserse_integer,https://leetcode.com/problems/reverse-integer/,False
 reverse_linked_list,https://leetcode.com/problems/reverse-linked-list/,True
 roman_to_integer,https://leetcode.com/problems/roman-to-integer/,True
 search_a_2d_matrix,https://leetcode.com/problems/search-a-2d-matrix/,True
