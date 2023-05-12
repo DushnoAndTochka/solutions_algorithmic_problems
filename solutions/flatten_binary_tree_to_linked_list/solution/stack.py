@@ -1,7 +1,7 @@
 class Solution:
     def flatten(self, root) -> None:
         if root is None:
-            return None
+            return
 
         stack = []
         prev = root

@@ -12,7 +12,7 @@ def walk(node):
 class Solution:
     def flatten(self, root) -> None:
         if root is None:
-            return None
+            return
 
         it = walk(root)
         current = next(it)
