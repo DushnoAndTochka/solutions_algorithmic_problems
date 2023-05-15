@@ -13,9 +13,10 @@ head
   1 -> 2 -> 3 -> 4 -> 5
 
 K = 2
+```
 
-result:
-
+Ответ:
+```
 head
   |
   V
@@ -23,5 +24,6 @@ head
 ```
 
 Вторая нода от начала это `2`, а вторая нода с конца это 4. Их мы поменяли местами и должны вернуть ссылку на `head`
+
 ---
 <a href="https://leetcode.com/problems/swapping-nodes-in-a-linked-list/">Задача на LeetCode</a>
