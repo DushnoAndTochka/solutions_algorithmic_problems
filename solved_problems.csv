@@ -28,6 +28,7 @@ problem_two_sum,https://leetcode.com/problems/two-sum/,True
 reserse_integer,https://leetcode.com/problems/reverse-integer/,True
 reverse_linked_list,https://leetcode.com/problems/reverse-linked-list/,True
 roman_to_integer,https://leetcode.com/problems/roman-to-integer/,True
+rotate_list,https://leetcode.com/problems/rotate-list/,False
 search_a_2d_matrix,https://leetcode.com/problems/search-a-2d-matrix/,True
 search_in_rotated_sorted_array,https://leetcode.com/problems/search-in-rotated-sorted-array/,True
 search_in_rotated_sorted_array_2,https://leetcode.com/problems/search-in-rotated-sorted-array-ii/,True
