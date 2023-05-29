@@ -24,4 +24,4 @@ num_rows = 5
 
 ---
 
-<a href="https://leetcode.com/problems/power-of-two/">Задача на LeetCode</a>
+<a href="https://leetcode.com/problems/pascals-triangle/">Задача на LeetCode</a>
