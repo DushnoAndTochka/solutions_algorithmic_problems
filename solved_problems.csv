@@ -25,6 +25,7 @@ merge_two_sorted_lists,https://leetcode.com/problems/merge-two-sorted-lists/,Tru
 n_ary_tree_level_order_traversal,https://leetcode.com/problems/n-ary-tree-level-order-traversal/,True
 number_of_provinces,https://leetcode.com/problems/number-of-provinces/,True
 palindrome_linked_list,https://leetcode.com/problems/palindrome-linked-list/,True
+pascals_triangle,https://leetcode.com/problems/power-of-two/,False
 power_of_two,https://leetcode.com/problems/power-of-two/,True
 problem_two_sum,https://leetcode.com/problems/two-sum/,True
 reserse_integer,https://leetcode.com/problems/reverse-integer/,True
