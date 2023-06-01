@@ -6,7 +6,7 @@ binary_tree_inorder_traversal,https://leetcode.com/problems/binary-tree-inorder-
 boats_to_sove_people,https://leetcode.com/problems/boats-to-save-people/,True
 check_if_one_string_swap_can_make_strings_equal,https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/,True
 dota2_senate,https://leetcode.com/problems/dota2-senate/,True
-expressive_words,https://leetcode.com/problems/expressive-words/,False
+expressive_words,https://leetcode.com/problems/expressive-words/,True
 find_minimum_in_rotated_sorted_array,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/,True
 find_the_highest_altitude,https://leetcode.com/problems/find-the-highest-altitude/,True
 flatten_binary_tree_to_linked_list,https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/,True
