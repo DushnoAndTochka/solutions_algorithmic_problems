@@ -17,7 +17,7 @@ kids_with_the_greatest_number_of_candies,https://leetcode.com/problems/kids-with
 left_and_right_sum_difference,https://leetcode.com/problems/left-and-right-sum-differences/,True
 length_of_last_word,https://leetcode.com/problems/length-of-last-word/,True
 linked_list_cycle,https://leetcode.com/problems/linked-list-cycle/,True
-longest_palindromic_substring,https://leetcode.com/problems/longest-palindromic-substring/,False
+longest_palindromic_substring,https://leetcode.com/problems/longest-palindromic-substring/,True
 longest_substring_without_repeating_characters,https://leetcode.com/problems/longest-substring-without-repeating-characters/,True
 majority_element,https://leetcode.com/problems/majority-element/,True
 median_of_two_sorted_arrays,https://leetcode.com/problems/median-of-two-sorted-arrays/,True
