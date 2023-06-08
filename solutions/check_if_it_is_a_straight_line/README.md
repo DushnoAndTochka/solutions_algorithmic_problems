@@ -19,4 +19,4 @@ result = False
 ```
 
 ---
-<a href="https://leetcode.com/problems/subsets/">Задача на LeetCode</a>
+<a href="https://leetcode.com/problems/check-if-it-is-a-straight-line/">Задача на LeetCode</a>
