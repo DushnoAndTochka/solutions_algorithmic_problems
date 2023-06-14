@@ -26,6 +26,7 @@ majority_element,https://leetcode.com/problems/majority-element/,True
 median_of_two_sorted_arrays,https://leetcode.com/problems/median-of-two-sorted-arrays/,True
 merge_k_sorted_lists,https://leetcode.com/problems/merge-k-sorted-lists/,True
 merge_two_sorted_lists,https://leetcode.com/problems/merge-two-sorted-lists/,True
+minimum_absolute_difference_in_bst,https://leetcode.com/problems/minimum-absolute-difference-in-bst/,False
 n_ary_tree_level_order_traversal,https://leetcode.com/problems/n-ary-tree-level-order-traversal/,True
 number_of_provinces,https://leetcode.com/problems/number-of-provinces/,True
 palindrome_linked_list,https://leetcode.com/problems/palindrome-linked-list/,True
