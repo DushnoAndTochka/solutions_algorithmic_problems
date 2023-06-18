@@ -21,4 +21,4 @@
 
 ---
 
-<a href="https://leetcode.com/problems/number-of-provinces/">Задача на LeetCode</a>
+<a href="https://leetcode.com/problems/triangle/">Задача на LeetCode</a>

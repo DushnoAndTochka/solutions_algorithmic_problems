@@ -1,17 +1,15 @@
+from copy import deepcopy
+
+
 class Solution:
     def minimum_total(self, triangle: list[list[int]]) -> int:
-        for row_num in range(1, len(triangle)):
-            for element_index in range(len(triangle[row_num])):
-                if element_index == 0:
-                    left_prev_elem = triangle[row_num - 1][0]
-                    triangle[row_num][element_index] += left_prev_elem
-                elif element_index == len(triangle[row_num]) - 1:
-                    right_prev_elem = triangle[row_num - 1][-1]
-                    triangle[row_num][element_index] += right_prev_elem
-                else:
-                    triangle[row_num][element_index] += min(
-                        triangle[row_num - 1][element_index - 1],
-                        triangle[row_num - 1][element_index],
-                    )
+        result_counter = deepcopy(triangle[-1])
 
-        return min(triangle[-1])
+        for row_index in range(len(triangle) - 2, -1, -1):
+            for i in range(len(triangle[row_index])):
+                left_child = result_counter[i]
+                right_child = result_counter[i + 1]
+                min_child = min(left_child, right_child)
+                current_element = triangle[row_index][i]
+                result_counter[i] = current_element + min_child
+        return result_counter[0]
