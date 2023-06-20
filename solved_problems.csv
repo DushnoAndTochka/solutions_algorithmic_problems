@@ -45,7 +45,7 @@ sign_of_the_product_of_an_array,https://leetcode.com/problems/sign-of-the-produc
 single_number,https://leetcode.com/problems/single-number/,True
 spiral_matrix_problem,https://leetcode.com/problems/spiral-matrix/,True
 subsets,https://leetcode.com/problems/subsets/,True
-summary_ranges,https://leetcode.com/problems/summary-ranges/,False
+summary_ranges,https://leetcode.com/problems/summary-ranges/,True
 swapping_nodes_in_a_linked_list,https://leetcode.com/problems/swapping-nodes-in-a-linked-list/,True
 symmetric_tree,https://leetcode.com/problems/symmetric-tree/,True
 top_k_frequent_elements,https://leetcode.com/problems/top-k-frequent-elements/,True
