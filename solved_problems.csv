@@ -16,6 +16,7 @@ flatten_binary_tree_to_linked_list,https://leetcode.com/problems/flatten-binary-
 guess_number_higher_or_lower,https://leetcode.com/problems/guess-number-higher-or-lower/,True
 has_group_size_x,https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/,True
 implement_magic_dictionary,https://leetcode.com/problems/implement-magic-dictionary/,True
+iterator_for_combination,https://leetcode.com/problems/iterator-for-combination/,False
 kids_with_the_greatest_number_of_candies,https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/,True
 left_and_right_sum_difference,https://leetcode.com/problems/left-and-right-sum-differences/,True
 length_of_last_word,https://leetcode.com/problems/length-of-last-word/,True
