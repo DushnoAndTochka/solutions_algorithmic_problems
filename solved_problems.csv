@@ -23,7 +23,7 @@ linked_list_cycle,https://leetcode.com/problems/linked-list-cycle/,True
 longest_palindromic_substring,https://leetcode.com/problems/longest-palindromic-substring/,True
 longest_substring_without_repeating_characters,https://leetcode.com/problems/longest-substring-without-repeating-characters/,True
 majority_element,https://leetcode.com/problems/majority-element/,True
-maximum_level_sum_of_a_binary_tree,https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/,False
+maximum_level_sum_of_a_binary_tree,https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/,True
 median_of_two_sorted_arrays,https://leetcode.com/problems/median-of-two-sorted-arrays/,True
 merge_k_sorted_lists,https://leetcode.com/problems/merge-k-sorted-lists/,True
 merge_two_sorted_lists,https://leetcode.com/problems/merge-two-sorted-lists/,True
