@@ -18,4 +18,4 @@
 
 
 ---
-<a href="https://leetcode.com/problems/unique-paths/">Задача на LeetCode</a>
+<a href="https://leetcode.com/problems/minimum-depth-of-binary-tree/">Задача на LeetCode</a>
