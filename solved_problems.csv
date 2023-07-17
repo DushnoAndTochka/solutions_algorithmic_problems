@@ -1,15 +1,17 @@
 problem_name,problem_origin_url,is_solved_problem
 add_two_numbers,https://leetcode.com/problems/add-two-numbers/,True
+add_two_numbers_ii,https://leetcode.com/problems/add-two-numbers-ii/,False
 best_time_to_buy_and_sell_stock,https://leetcode.com/problems/best-time-to-buy-and-sell-stock/,True
 binary_search,https://leetcode.com/problems/binary-search/,True
 binary_tree_inorder_traversal,https://leetcode.com/problems/binary-tree-inorder-traversal/,True
 boats_to_sove_people,https://leetcode.com/problems/boats-to-save-people/,True
-buddy_strings,https://leetcode.com/problems/buddy-strings/,False
+buddy_strings,https://leetcode.com/problems/buddy-strings/,True
 can_make_arithmetic_progression_from_sequence,https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/,True
 check_if_it_is_a_straight_line,https://leetcode.com/problems/check-if-it-is-a-straight-line/,True
 check_if_one_string_swap_can_make_strings_equal,https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/,True
 dota2_senate,https://leetcode.com/problems/dota2-senate/,True
 expressive_words,https://leetcode.com/problems/expressive-words/,True
+find_eventual_safe_states,https://leetcode.com/problems/find-eventual-safe-states/,True
 find_minimum_in_rotated_sorted_array,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/,True
 find_smaller_letter_greater_than_target,https://leetcode.com/problems/find-smallest-letter-greater-than-target/,False
 find_the_highest_altitude,https://leetcode.com/problems/find-the-highest-altitude/,True
@@ -23,6 +25,7 @@ left_and_right_sum_difference,https://leetcode.com/problems/left-and-right-sum-d
 length_of_last_word,https://leetcode.com/problems/length-of-last-word/,True
 linked_list_cycle,https://leetcode.com/problems/linked-list-cycle/,True
 longest_palindromic_substring,https://leetcode.com/problems/longest-palindromic-substring/,True
+longest_subarray_of_1s_after_deleting_one_element,https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/,False
 longest_substring_without_repeating_characters,https://leetcode.com/problems/longest-substring-without-repeating-characters/,True
 majority_element,https://leetcode.com/problems/majority-element/,True
 maximum_level_sum_of_a_binary_tree,https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/,True
@@ -31,6 +34,8 @@ median_of_two_sorted_arrays,https://leetcode.com/problems/median-of-two-sorted-a
 merge_k_sorted_lists,https://leetcode.com/problems/merge-k-sorted-lists/,True
 merge_two_sorted_lists,https://leetcode.com/problems/merge-two-sorted-lists/,True
 minimum_absolute_difference_in_bst,https://leetcode.com/problems/minimum-absolute-difference-in-bst/,True
+minimum_depth_of_binary_tree,https://leetcode.com/problems/minimum-depth-of-binary-tree/,True
+minimum_path_sum,https://leetcode.com/problems/minimum-path-sum/,False
 n_ary_tree_level_order_traversal,https://leetcode.com/problems/n-ary-tree-level-order-traversal/,True
 number_of_provinces,https://leetcode.com/problems/number-of-provinces/,True
 palindrome_linked_list,https://leetcode.com/problems/palindrome-linked-list/,True
