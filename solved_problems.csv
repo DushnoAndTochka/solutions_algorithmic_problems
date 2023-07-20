@@ -37,7 +37,7 @@ minimum_absolute_difference_in_bst,https://leetcode.com/problems/minimum-absolut
 minimum_depth_of_binary_tree,https://leetcode.com/problems/minimum-depth-of-binary-tree/,True
 minimum_path_sum,https://leetcode.com/problems/minimum-path-sum/,False
 n_ary_tree_level_order_traversal,https://leetcode.com/problems/n-ary-tree-level-order-traversal/,True
-non_overlapping_intervals,https://leetcode.com/problems/non-overlapping-intervals/,False
+non_overlapping_intervals,https://leetcode.com/problems/non-overlapping-intervals/,True
 number_of_provinces,https://leetcode.com/problems/number-of-provinces/,True
 palindrome_linked_list,https://leetcode.com/problems/palindrome-linked-list/,True
 pascals_triangle,https://leetcode.com/problems/pascals-triangle/,True
