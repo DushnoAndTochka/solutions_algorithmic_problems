@@ -43,6 +43,7 @@ palindrome_linked_list,https://leetcode.com/problems/palindrome-linked-list/,Tru
 pascals_triangle,https://leetcode.com/problems/pascals-triangle/,True
 path_with_maximum_probability,https://leetcode.com/problems/path-with-maximum-probability/,True
 power_of_two,https://leetcode.com/problems/power-of-two/,True
+powx_n,https://leetcode.com/problems/powx-n/,False
 problem_two_sum,https://leetcode.com/problems/two-sum/,True
 reserse_integer,https://leetcode.com/problems/reverse-integer/,True
 reverse_linked_list,https://leetcode.com/problems/reverse-linked-list/,True
