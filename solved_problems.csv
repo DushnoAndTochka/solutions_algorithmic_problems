@@ -10,6 +10,7 @@ can_make_arithmetic_progression_from_sequence,https://leetcode.com/problems/can-
 check_if_it_is_a_straight_line,https://leetcode.com/problems/check-if-it-is-a-straight-line/,True
 check_if_one_string_swap_can_make_strings_equal,https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/,True
 dota2_senate,https://leetcode.com/problems/dota2-senate/,True
+dungeon_game,https://leetcode.com/problems/dungeon-game/,False
 expressive_words,https://leetcode.com/problems/expressive-words/,True
 find_eventual_safe_states,https://leetcode.com/problems/find-eventual-safe-states/,True
 find_minimum_in_rotated_sorted_array,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/,True
