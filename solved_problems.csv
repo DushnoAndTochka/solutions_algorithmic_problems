@@ -10,7 +10,7 @@ can_make_arithmetic_progression_from_sequence,https://leetcode.com/problems/can-
 check_if_it_is_a_straight_line,https://leetcode.com/problems/check-if-it-is-a-straight-line/,True
 check_if_one_string_swap_can_make_strings_equal,https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/,True
 dota2_senate,https://leetcode.com/problems/dota2-senate/,True
-dungeon_game,https://leetcode.com/problems/dungeon-game/,False
+dungeon_game,https://leetcode.com/problems/dungeon-game/,True
 expressive_words,https://leetcode.com/problems/expressive-words/,True
 find_eventual_safe_states,https://leetcode.com/problems/find-eventual-safe-states/,True
 find_minimum_in_rotated_sorted_array,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/,True
@@ -35,6 +35,7 @@ median_of_two_sorted_arrays,https://leetcode.com/problems/median-of-two-sorted-a
 merge_k_sorted_lists,https://leetcode.com/problems/merge-k-sorted-lists/,True
 merge_two_sorted_lists,https://leetcode.com/problems/merge-two-sorted-lists/,True
 minimum_absolute_difference_in_bst,https://leetcode.com/problems/minimum-absolute-difference-in-bst/,True
+minimum_ascii_delete_sum_for_two_strings,https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/,False
 minimum_depth_of_binary_tree,https://leetcode.com/problems/minimum-depth-of-binary-tree/,True
 minimum_path_sum,https://leetcode.com/problems/minimum-path-sum/,False
 minimum_speed_to_arrive_on_time,https://leetcode.com/problems/minimum-speed-to-arrive-on-time/,True

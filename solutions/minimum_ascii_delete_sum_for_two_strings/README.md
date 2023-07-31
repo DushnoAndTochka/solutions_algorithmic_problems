@@ -20,5 +20,3 @@ result = 115 + 116  # 231
 
 ---
 <a href="https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/">Задача на LeetCode</a>
-
-
