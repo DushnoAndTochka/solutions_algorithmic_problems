@@ -107,6 +107,36 @@
 
 Получается, что рыцарь должен зайти с `7` жизнями, что бы успешно пройти маршрут и не помереть по дороге.
 
+А вот так будет выглядеть код:
+
+```python
+class Solution:
+    def calculate_minimum_hp(self, dungeon: list[list[int]]) -> int:
+        # клетка с принцессой. 
+        # Если она хилит, то достаточно и 1 жизни на входе
+        # Если монстр там, то надо на 1 жизнь больше,
+        # что бы не умереть и забрать принцессу
+        dungeon[-1][-1] = max(1 - dungeon[-1][-1], 1)
+
+        for i in range(len(dungeon) - 2, -1, -1):
+            # Заполняем правую грань
+            dungeon[i][-1] = max(dungeon[i + 1][-1] - dungeon[i][-1], 1)
+
+        for i in range(len(dungeon[0]) - 2, -1, -1):
+            # Заполняем нижнюю грань
+            dungeon[-1][i] = max(dungeon[-1][i + 1] - dungeon[-1][i], 1)
+
+        for i in range(len(dungeon) - 2, -1, -1):
+            for j in range(len(dungeon[0]) - 2, -1, -1):
+                # Заполняем все оставшиеся переходы
+                dungeon[i][j] = max(
+                    # выбираем оптимальный дальнейший переход
+                    min(dungeon[i][j + 1], dungeon[i + 1][j]) - dungeon[i][j],
+                    1
+                )
+
+        return dungeon[0][0]
+```
 ---
 
 PS
