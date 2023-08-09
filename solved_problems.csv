@@ -50,6 +50,7 @@ permutations,https://leetcode.com/problems/permutations/,True
 power_of_two,https://leetcode.com/problems/power-of-two/,True
 powx_n,https://leetcode.com/problems/powx-n/,True
 problem_two_sum,https://leetcode.com/problems/two-sum/,True
+remove_duplicates_from_sorted_list,https://leetcode.com/problems/remove-duplicates-from-sorted-list/,False
 reserse_integer,https://leetcode.com/problems/reverse-integer/,True
 reverse_linked_list,https://leetcode.com/problems/reverse-linked-list/,True
 roman_to_integer,https://leetcode.com/problems/roman-to-integer/,True
