@@ -38,7 +38,7 @@ merge_k_sorted_lists,https://leetcode.com/problems/merge-k-sorted-lists/,True
 merge_two_sorted_lists,https://leetcode.com/problems/merge-two-sorted-lists/,True
 minimum_absolute_difference_in_bst,https://leetcode.com/problems/minimum-absolute-difference-in-bst/,True
 minimum_ascii_delete_sum_for_two_strings,https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/,True
-minimum_cost_to_cut_a_stick,https://leetcode.com/problems/minimum-cost-to-cut-a-stick/,False
+minimum_cost_to_cut_a_stick,https://leetcode.com/problems/minimum-cost-to-cut-a-stick/,True
 minimum_depth_of_binary_tree,https://leetcode.com/problems/minimum-depth-of-binary-tree/,True
 minimum_path_sum,https://leetcode.com/problems/minimum-path-sum/,False
 minimum_speed_to_arrive_on_time,https://leetcode.com/problems/minimum-speed-to-arrive-on-time/,True
