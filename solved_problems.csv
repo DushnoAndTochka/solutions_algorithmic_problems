@@ -25,6 +25,7 @@ iterator_for_combination,https://leetcode.com/problems/iterator-for-combination/
 kids_with_the_greatest_number_of_candies,https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/,True
 left_and_right_sum_difference,https://leetcode.com/problems/left-and-right-sum-differences/,True
 length_of_last_word,https://leetcode.com/problems/length-of-last-word/,True
+letter_combinations_of_a_phone_number,https://leetcode.com/problems/letter-combinations-of-a-phone-number/,False
 linked_list_cycle,https://leetcode.com/problems/linked-list-cycle/,True
 longest_palindromic_substring,https://leetcode.com/problems/longest-palindromic-substring/,True
 longest_subarray_of_1s_after_deleting_one_element,https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/,False
